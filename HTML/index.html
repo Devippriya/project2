@@ -2,78 +2,94 @@
 
 <html lang="en">
 <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cable records</title>
+    <link rel="stylesheet" type="text/css"  href="styles.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 <body>
     <main>
         <h1>Cable records</h1>
-        <div id="searchlist">
-            <p>Search for customer</p>
-            <div class="search">
-            <form action="#">
-                <input type="text"
-                    placeholder=" Search.."
-                    name="search">
+        <section>
+            <article class="searchlist">
+                <p>Search for customer</p>
+                <form class="search" action="#">
+                    <input type="text"
+                        placeholder=" Search.."
+                        name="search">
+                        <button type="submit">
+                            <i class="fa fa-search"
+                               style="font-size: 50px;">
+                            </i>
+                        </button>
+                    <label for="type"></label>
+                    <select name="type" id="type">
+                        <option value="Name">Name</option>
+                        <option value="Box_number">Setup box number</option>
+                    </select>
+                </form>
+            </article>
+        </section>
+        <br> <br>
+
+        <section>
+            <br><br>
+            <hr>
+            <article class="details">
+            <h2>Customers List</h2>
             
-                    <button class="search_button" type="submit"><i class="fa fa-search"></i></button>
-                
-                <label for="type"></label>
-                <select name="type" id="type">
-                    <option value="Name">Name</option>
-                    <option value="Box_number">Setup box number</option>
-                </select>
-            </form>
-            </div>
-        </div>
-        <hr>
-        <div>
-        <h2>Customers List</h2>
-        <table>
-            <tr>
-                <th>Name</th>
-                <th>Address</th>
-                <th>Phone number</th>
-                <th>Box number</th>
-                <th>Connection status</th>
-                <th>Payment details</th>
-            </tr>
-            <tr>
-                <td>Nelson</td>
-                <td>Thanjavur</td>
-                <td>1234567890</td>
-                <td>123</td>
-                <td>yes</td>
-                <td>paid</td>
-            </tr>
-            <tr>
-                <td>Kutchu</td>
-                <td>Thanjavur</td>
-                <td>1234567</td>
-                <td>234</td>
-                <td>yes</td>
-                <td>paid</td>
-            </tr>
-            <tr>
-                <td>Gokul</td>
-                <td>Thanjavur</td>
-                <td>123400567</td>
-                <td>23456</td>
-                <td>yes</td>
-                <td>paid</td>
-            </tr>
-            <tr>
-                <td>Surya</td>
-                <td>Thanjavur</td>
-                <td>12340450567</td>
-                <td>23457</td>
-                <td>yes</td>
-                <td>no</td>
-            </tr>
-        </table>
-        </div>
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Phone number</th>
+                        <th>Box number</th>
+                        <th>Connection status</th>
+                        <th>Payment details</th>
+                    </tr>
+                    <tr>
+                        <td>Nelson</td>
+                        <td>Thanjavur</td>
+                        <td>1234567890</td>
+                        <td>123</td>
+                        <td>yes</td>
+                        <td>paid</td>
+                    </tr>
+                    <tr>
+                        <td>Kutchu</td>
+                        <td>Thanjavur</td>
+                        <td>1234567</td>
+                        <td>234</td>
+                        <td>yes</td>
+                        <td>paid</td>
+                    </tr>
+                    <tr>
+                        <td>Gokul</td>
+                        <td>Thanjavur</td>
+                        <td>123400567</td>
+                        <td>23456</td>
+                        <td>yes</td>
+                        <td>paid</td>
+                    </tr>
+                    <tr>
+                        <td>Surya</td>
+                        <td>Thanjavur</td>
+                        <td>12340450567</td>
+                        <td>23457</td>
+                        <td>yes</td>
+                        <td>no</td>
+                    </tr>
+                </table>
+           
+                </article>
+        </section>
     </main>
+    <br><br>
     <footer>
+        <hr>
         <p>Stay connected</p>
     </footer>
 </body>
 </html>
+
+

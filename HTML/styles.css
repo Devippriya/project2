@@ -1,0 +1,59 @@
+hr {
+    height: 2px;
+    margin-top:20px;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(1, 0, 5);
+}
+
+.bottom-line{
+    float:left;
+    margin-top:20000px;
+}
+.searchlist{
+    background-color: #b7e3f2;
+    position: absolute;
+    width: 100%;
+    display: inline-block
+}
+.searchlist p {
+    float:left;
+    color: #ca1919;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.searchlist input[type=text]{
+    margin-top: 23px;
+    color:rgb(0, 0, 0);
+    float:left;
+    width:200px;
+    height:25px;
+    border-radius:25px;
+    border: none;
+}
+     
+     
+.search button{
+    background-color: #0074D9;
+    color: #f2f2f2;
+    float: left;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.searchlist label{
+    margin-top: 25px;
+}
+.details{
+    float:left;
+    margin-top:0px;
+}
+footer{
+    font-size: 15px;
+    margin-top:200px;
+}
+
